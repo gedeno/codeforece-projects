@@ -1,4 +1,4 @@
-x = 'xiaodao'
+x = input('input your username :')
 lens = len(x)
 v = []
 for i in x:
