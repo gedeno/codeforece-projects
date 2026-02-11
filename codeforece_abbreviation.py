@@ -2,6 +2,7 @@ words = int(input('enter the number of words:'))
 words_abriv = []
 for i in range(words):
     x1 = input('enter :')
+    print(len(x1))
     x = list(x1)
     lngth = len(x)
     if lngth >=  10:

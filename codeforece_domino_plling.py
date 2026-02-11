@@ -1,4 +1,4 @@
-dimention = list(map(int, input('enter your dimentions: ').split()))
+dimention = list(map(int, input().split()))
 x = dimention[0]
 y = dimention[1]
 sequres  = 2*1

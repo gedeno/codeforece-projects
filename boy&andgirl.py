@@ -1,4 +1,4 @@
-x = input('input your username :')
+x = input()
 lens = len(x)
 v = []
 for i in x:
@@ -6,7 +6,6 @@ for i in x:
         pass
     else:
         v.append(i)
-
 gen = len(v)
 gender = gen%2
 if gender == 0:
