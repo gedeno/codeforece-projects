@@ -5,12 +5,18 @@ if ny[0]>ny[1]:
     ot = ny[0]
 elif ny[1] >ny[0]:
     ot = ny[1]
+elif ny[0]==ny[1]:
+    ot = ny[0]
+
 o =[]
 for i in n:
     if ot <= i:
         o.append(i)
 p = len(o)
-if p%2 == 0 :
+if p%6 == 0:
+    p = int(p/6)
+    print(f"{p}/1")
+elif p%2 == 0 :
     p = int(p/2)
     print(f"{p}/3")
 elif p%3 == 0:
