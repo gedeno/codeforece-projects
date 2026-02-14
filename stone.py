@@ -1,5 +1,5 @@
-stone = str(input('Enter your stode: '))
-instrunct = str(input('Enter your instrunct: '))
+stone = str(input())
+instrunct = str(input())
 X = len(stone)
 v = 0
 for j in instrunct:
