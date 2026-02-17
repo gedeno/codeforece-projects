@@ -1,11 +1,21 @@
 event = int(input())
-evv = list(map(int,input().split()))
+ev = list(map(int,input().split()))
+
 while True:
-    if evv[-1] > 0:
-        evv.pop()
+    if ev[-1] > 0:
+        ev.pop()
     else:
         break
-if sum(evv) >= 0:
+ev.reverse()
+su = 0
+for i in ev:
+
+    if su > 0:
+        su = 0
+    else:
+        su += i
+
+if su >= 0:
     print(0)
 else:
-    print(-sum(evv))
+    print(-su)
