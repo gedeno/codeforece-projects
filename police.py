@@ -17,8 +17,5 @@ for i in ev:
 
 if su >= 0:
     print(0)
-elif su <= 0:
-    print(su)
-
 else:
     print(-su)
