@@ -9,10 +9,10 @@ while True:
 ev.reverse()
 su = 0
 for i in ev:
+    su += i
     if su > 0:
         su = 0
-    else:
-        su += i
+
 if su >= 0:
     print(0)
 else:
