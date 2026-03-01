@@ -11,6 +11,9 @@ for i in range(tast_case):
     elif b >= a :
         if a%2 != 0:
             print('DA')
+            
         else:
             print('NET')
+            
+        
 
